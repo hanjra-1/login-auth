@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="w-full h-screen bg-zinc-900 text-white">
+        <h1 class="text-3xl p-10">Login user</h1>
+        
+        <form action="/login" method="post" class="flex flex-wrap p-10">
+            
+
+          <input class="px-3 py-2 rounded-md bg-transparent border-2 border-zinc-800 outline-none" type="email" placeholder="email" name="email" id="">
+            <input class="px-3 py-2 rounded-md bg-transparent border-2 border-zinc-800 outline-none" type="password" placeholder="password" name="password">
+            <input class="px-5 py-2 rounded-md bg-blue-500" type="submit" name="create" value="login" id="">
+
+
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
