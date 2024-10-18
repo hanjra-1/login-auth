@@ -7,21 +7,22 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div class="w-full h-screen bg-zinc-900 text-white">
-        <h1 class="text-3xl p-10">Login user</h1>
+    <div class="w-full h-screen bg-zinc-900 text-white items-center flex justify-center p-10  gap-2 ">
+        <div class="">
+
+            <h1 class="text-3xl text-center p-10 ">Login user</h1>
         
-        <form action="/login" method="post" class="flex flex-wrap p-10">
-            
+        <form action="/login" method="post" class="flex flex-wrap flex-col w-20 gap-2 ">
 
           <input class="px-3 py-2 rounded-md bg-transparent border-2 border-zinc-800 outline-none" type="email" placeholder="email" name="email" id="">
             <input class="px-3 py-2 rounded-md bg-transparent border-2 border-zinc-800 outline-none" type="password" placeholder="password" name="password">
+            <label> <input type="checkbox" name="rememberMe" class="text-center m-2"> Remember Me </label>
             <input class="px-5 py-2 rounded-md bg-blue-500" type="submit" name="create" value="login" id="">
-
-
         </form>
+
+        </div>
+        
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="/scripts/script.js"></script>
 </body>
 </html>

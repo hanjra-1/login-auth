@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="w-full h-screen bg-zinc-900 text-white">
+        <div class="flex justify-between">
+            
+            <h1 class="text-3xl p-10">Generate and Download File</h1>
+            <form action="/logout" method="get">
+                <button type="submit" class="text-red-500 text-xl p-10">Logout</button>
+            </form>
+        </div>
+        
+        
+        <form action="/download" method="get" class="flex flex-wrap flex-col items-center justify-center w-20 p-10">
+            <button class="px-5 py-2 rounded-md bg-blue-500" type="submit" >Generate xlsx</button>
+        </form>
+    </div>
+
+</body>
+</html>

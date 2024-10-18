@@ -1,0 +1,15 @@
+<title>Upload CSV</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="w-full h-screen bg-zinc-900 text-white flex flex-col p-10  gap-2 ">
+        <h1 class="text-3xl">Upload CSV File</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".csv" required>
+            <button type="submit" class="px-5 py-2 rounded-md bg-blue-500"">Upload</button>
+        </form>
+
+    </div>
+  
+</body>
+</html>
